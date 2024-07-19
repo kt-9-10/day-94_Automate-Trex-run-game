@@ -2,7 +2,7 @@ import pyautogui
 import numpy as np
 
 
- def capture_game_screenshot():
+def capture_game_screenshot():
     x, y, width, height = 440, 930, 200, 10
 
     game_window_element = pyautogui.screenshot(region=(x, y, width, height))
